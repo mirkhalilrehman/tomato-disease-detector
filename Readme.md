@@ -1,40 +1,31 @@
-# Tomato Disease Detector
+Tomato Disease Detector
+Project Overview
+Tomato Disease Detector is a machine learning-based application designed to identify various diseases affecting tomato leaves. By using deep learning models, this project aims to assist farmers and gardeners in detecting diseases early, improving crop health, and preventing yield loss.
 
-## Project Overview
-
-**Tomato Disease Detector** is a machine learning-based application designed to identify various diseases affecting tomato leaves. By using deep learning models, this project aims to assist farmers and gardeners in detecting diseases early, improving crop health, and preventing yield loss.
-
-## Features
-
-- **Multi-Disease Detection**: Accurately detects 10 different classes of tomato leaf conditions, including bacterial spots, early blight, and healthy leaves.
-- **Deep Learning Models**: Utilizes Convolutional Neural Networks (CNN) and transfer learning techniques for robust disease classification.
-- **User-Friendly API**: Provides an easy-to-use Flask API for predicting disease from uploaded images.
-- **Scalable and Adaptable**: Built with TensorFlow, allowing for further customization and scalability.
-
-## Technologies Used
-
-- **Python**: Primary language for development.
-- **TensorFlow/Keras**: For building and training deep learning models.
-- **Flask**: Backend framework used to create the API.
-- **NumPy**: For numerical operations.
-- **PIL (Pillow)**: For image preprocessing.
-
-## Getting Started
-
-### Prerequisites
-
+Features
+Multi-Disease Detection: Accurately detects 10 different classes of tomato leaf conditions, including bacterial spots, early blight, and healthy leaves.
+Deep Learning Models: Utilizes Convolutional Neural Networks (CNN) and transfer learning techniques for robust disease classification.
+User-Friendly API: Provides an easy-to-use Flask API for predicting disease from uploaded images.
+Scalable and Adaptable: Built with TensorFlow, allowing for further customization and scalability.
+Technologies Used
+Python: Primary language for development.
+TensorFlow/Keras: For building and training deep learning models.
+Flask: Backend framework used to create the API.
+NumPy: For numerical operations.
+PIL (Pillow): For image preprocessing.
+Getting Started
+Prerequisites
 Ensure you have the following installed:
 
-- Python 3.x
-- Git
-- Required Python packages (listed in `requirements.txt`)
+Python 3.x
+Git
+Required Python packages (listed in requirements.txt)
+Installation
+Clone the Repository
 
-### Installation
-
-1. **Clone the Repository**
-
-   ```bash
-   git clone https://github.com/mirkhalilrehman/tomato-disease-detector.git
+bash
+Copy code
+git clone https://github.com/mirkhalilrehman/tomato-disease-detector.git
 Navigate to the Project Directory
 
 bash
@@ -71,8 +62,7 @@ API Endpoints
 Contributing
 We welcome contributions! If you have ideas, features, or improvements, feel free to fork the repository, make changes, and submit a pull request.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
 
 Acknowledgements
 Thanks to the creators of open-source datasets and pre-trained models.
